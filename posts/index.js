@@ -39,4 +39,7 @@ app.post('/events', async (req, res) => {
   res.send({});
 });
 
-app.listen(4000, () => console.log('App is listening on port 4000'));
+app.listen(4000, () => {
+  console.log('V55');
+  console.log('App is listening on port 4000');
+});

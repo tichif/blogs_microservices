@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: posts
-          image: tichif/posts:0.0.1
+          image: tichif/posts:latest # or image: tichif/posts
